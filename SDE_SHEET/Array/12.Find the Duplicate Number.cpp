@@ -1,3 +1,16 @@
+Treat the array like a linked list where:
+
+The value at each index points to the next index:
+next = nums[current]
+
+Because there's a duplicate, a cycle must exist — the repeated number is the entry point of the cycle.
+
+This is the same idea behind Floyd’s Tortoise and Hare algorithm used to detect cycles in linked lists.
+
+
+
+
+
 class Solution {
 public:
     int findDuplicate(vector<int>& nums) {
