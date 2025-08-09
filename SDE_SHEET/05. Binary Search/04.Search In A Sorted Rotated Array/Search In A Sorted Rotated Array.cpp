@@ -14,7 +14,7 @@ public:
                 }else{
                     low=mid+1;
                 }
-            }else{// right part is sorted and target in right part
+            }else{// right part is sorted and target in right part h
                 if(target>=nums[mid] && target<=nums[high]){
                     low=mid+1;
                 }else{
