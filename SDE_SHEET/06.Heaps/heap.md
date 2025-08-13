@@ -43,6 +43,8 @@ When we are talking to move node to correct location i.e root node then apply he
 
 #### Priority Queue 
 
+A priority_queue<int> in C++ is by default a max heap internally.
+
 - We can use heap functionality through it .
 - We can make maxHeap and minHeap through it .
 - In this if we enter elements then the highest node will be on top
