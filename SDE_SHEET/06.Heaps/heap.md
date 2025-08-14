@@ -61,6 +61,15 @@ A priority_queue<int> in C++ is by default a max heap internally.
 
 - and for maxheap we write ``` priority_queue<int>pq```
 
+| Operation | Complexity |
+|-----------|------------|
+| push      | O(log n)   |
+| pop       | O(log n)   |
+| top       | O(1)       |
+| size      | O(1)       |
+| empty     | O(1)       |
+
+
 
 
 
